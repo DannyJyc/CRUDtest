@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e8bbbf40-51a2-4187-89be-2dfe3b351966" name="wwwroot" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="C:\inetpub\wwwroot\CRUDtest" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
