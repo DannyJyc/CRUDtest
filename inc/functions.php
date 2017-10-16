@@ -17,7 +17,7 @@ function href($url)
 
 function delete($classname, $id, $conn)
 {
-    $sql = "delete from '$classname' where id='$id'";
+    $sql = "delete from $classname where id=$id";
     mysqli_query($conn, $sql);
     $rows = mysqli_affected_rows($conn);
     return $rows;
