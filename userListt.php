@@ -1,9 +1,15 @@
+<?php
+require_once 'inc/dbConn.php';
+?>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>会员信息列表</title>
 </head>
 <body>
+<?php
+judgeLogin();
+?>
 <table border="1" cellspacing="0" cellpadding="0" id="userList" align="center">
     <tr align="center">
         <th>id</th>
@@ -18,7 +24,6 @@
         <th>操作</th>
     </tr>
     <?php
-    require_once 'inc/dbConn.php';
     //这是啥东东。。
     //date_default_timezone_set("PRC");
     //读数据。。。

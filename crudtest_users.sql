@@ -32,6 +32,6 @@ VALUES ('9', '222', 1, '1', 12, '2017-07-10', 'fuxc', '2017-07-22', '2017-07-22'
 INSERT INTO crudtest.users (username, password, admin, sex, age, birthday, hobby, add_time, last_login, profile)
 VALUES ('10', '222', 1, '1', 12, '2017-07-10', 'fuxc', '2017-07-22', '2017-07-22', '10');
 INSERT INTO crudtest.users (username, password, admin, sex, age, birthday, hobby, add_time, last_login, profile)
-VALUES ('666', '666', 1, '2', 66, '1986-06-06', '666', '2017-07-22', '2017-07-22', '6666');
+VALUES ('666', '666', 9, '2', 66, '1986-06-06', '666', '2017-07-22', '2017-07-22', '6666');
 INSERT INTO crudtest.users (username, password, admin, sex, age, birthday, hobby, add_time, last_login, profile)
 VALUES ('777', '777', 1, '2', 77, '1987-07-07', '7777', '2017-07-22', '2017-07-22', '77777');

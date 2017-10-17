@@ -25,9 +25,9 @@ function judgeLogin()
             echo "普通用户";
         }
 
-        echo "<br><a href='../logout.php'>点此注销登录。</a>";
+        echo "<br><a href='./logout.php'>点此注销登录。</a>";
     } else {
-        echo "您还没有登录。<a href='../login.php'>点此登录。</a>";
+        echo "您还没有登录。<a href='./login.php'>点此登录。</a>";
     }
 }
 
