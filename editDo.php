@@ -36,14 +36,5 @@ if ($rows >= 1) {
     alert("您并未作出改动或编辑失败");
 //   href("addUser.php");
 }
-function alert($title)
-{
-    echo "<script type='text/javascript'>alert('$title');</script>";
-}
-
-function href($url)
-{
-    echo "<script type='text/javascript'>window.location.href='$url'</script>";
-}
 
 ?>

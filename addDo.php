@@ -40,14 +40,3 @@ if ($rows >= 1) {
     alert("添加失败");
 //   href("addUser.php");
 }
-function alert($title)
-{
-    echo "<script type='text/javascript'>alert('$title');</script>";
-}
-
-function href($url)
-{
-    echo "<script type='text/javascript'>window.location.href='$url'</script>";
-}
-
-?>
