@@ -31,6 +31,7 @@ $user = mysqli_fetch_array($result);
     </tr>
     <tr>
         <td>性别</td>
+        <!-- 最后的保密纯属多余，哈哈，写着玩的，不过呢，万一你的性别字段真的没有填写，就会显示保密两个字了 -->
         <td> <?php if ($user['sex'] == '1') echo "男"; else if ($user['sex'] == '2') echo "女"; else "保密"; ?>
         </td>
     </tr>
