@@ -8,8 +8,7 @@ $password = $_POST['password'];
 
 
 if (!$conn) {
-
-    echo "<script>alert('数据库连接失败！')</script>";
+    alert("编辑成功");
 } else {
 
     if (isset($_POST['submit'])) {
